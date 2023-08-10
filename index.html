@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blog Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script src="https://kit.fontawesome.com/28f3207881.js" crossorigin="anonymous"></script>
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  float: left;
+}
+
+ 
+ 
+ @keyframes java {
+   50% {color: green;}
+ }
+
+@media screen and (max-width: 480px) {
+ iframe {
+  float: none;
+}
+}
+
+</style>
+</head>
+<body class="w3-light-blue">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1 id="blogTitle"></h1>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="/pics/gameroom.webp" alt="Nature" style="width:100%">
+
+
+    <div class="w3-container">
+     <h3 class="w3-text-indigo w3-cursive">WHO I AM</h3>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button id="mybutton" onclick="typeWriter2()" class=" w3-hover-blue w3-padding-large w3-white w3-bjava">READ MORE »</button></p>
+          <p class="w3-xlarge" id="paraONE"></p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="/pics/basement.jpeg" alt="Norway" style="width:100%">
+    <div class="w3-container ">
+     <h3 class="w3-text-indigo w3-cursive ">MY SERVICES</h3>
+   
+    </div>
+
+    <div class="w3-container">
+      
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+         
+          
+         <p> <button onclick="myFunction('Demo1')" class="w3-hover-blue w3-padding-large w3-white w3-bjava">READ MORE »</button>
+<div id="Demo1" class="w3-container w3-hide w3-padding-16"></p>
+  
+  <p class="w3-xlarge ">Welcome to my place of creation where you can get a nice website built for your business , blog , food, game, video etc. I have prebuilt templates if you need help on creating a design or may see something that fits your needs. Maybe you already have a design and i can also create it for you. My job is to make sure that you are happy with the product and that it works to forfill your needs of production. Thankyou for stoping by and if you know someone in need of my service fill free to send them here to this website where magic happens. Talk to soon!</p>
+  <a class="w3-green w3-text-white w3-btn w3-round-xlarge " href="https://websiteforsale.mr-get-it-done.info/">SAMPLES HERE</a>
+</div>
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top ">
+  <img src="/pics/baby.webp" style="width:100%">
+    <div class="w3-container w3-white w3-center">
+      <h4 class="w3-text-indigo w3-cursive ">Cliffton James Sr</h4>
+      <p>I am a very passionate person when it comes to computers or any knowledge I can use to create something out the ordinary. Designing and creating is skills I have that I like to share with others through my work. I am a people person so understanding different variety of services and quota projects will not be overwhelming for myself.</p>
+     
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+     <h4 class="w3-text-white w3-cursive w3-center" >Latest Projects</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <a href="https://www.roochiesapparel.mr-get-it-done.info/"> <li class="w3-padding-16">
+        <img src="/pics/tee.webp" alt="Image" class="w3-left w3-margin-right" style="width:40px">
+        <span class="w3-large">Clothing Store</span><br>
+        <span>Homemade Products</span>
+      </li></a>
+      <a href="https://cocktailsdb-reactcliff.netlify.app/"> <li class="w3-padding-16">
+        <img src="/pics/martini.webp" alt="Image" class="w3-left w3-margin-right" style="width:40px">
+        <span class="w3-large">Have a Drink On Me</span><br>
+        <span>Find Your Favorite Drink</span>
+      </li> </a>
+      <a href="https://the-mealdb-mimo.netlify.app/"> <li class="w3-padding-16">
+        <img src="/pics/burger.webp" alt="Image" class="w3-left w3-margin-right" style="width:40px">
+        <span class="w3-large">Delicious Meals</span><br>
+        <span>The Guide To Tasteful Meals</span>
+      </li> </a>  
+      <a href="https://cliffskarts-mariokart8deluxe.mr-get-it-done.info/"> <li class="w3-padding-16 ">
+        <img src="/pics/switch.webp" alt="Image" class="w3-left w3-margin-right" style="width:40px">
+        <span class="w3-large">My Mario Kart Website</span><br>
+        <span>Get Your Drift On</span>
+      </li>  </a>
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4 class="w3-text-white w3-cursive w3-center" >Skills</h4>
+    </div>
+    <div class="w3-container w3-white tag">
+     <p><span class="w3-tag w3-blue w3-margin-bottom ">HTML</span> 
+      <span class="w3-tag w3-light-blue w3-small w3-margin-bottom">CSS</span> 
+      <span class="w3-tag w3-yellow w3-small w3-margin-bottom ">JAVASCRIPT</span>
+      <span class="w3-tag w3-purple w3-small w3-margin-bottom">REACT</span> <span class="w3-tag w3-pale-blue w3-small w3-margin-bottom">GIT</span> <span class="w3-tag w3-pink w3-small w3-margin-bottom">FIGMA</span>
+      <span class="w3-tag w3-orange w3-small w3-margin-bottom">PYTHON</span> <span class="w3-tag w3-green w3-small w3-margin-bottom">MONGO DB</span> 
+      <a class="bootstrap" href="http://"><span class="w3-animate-fading w3-tag w3-brown w3-small w3-margin-bottom ">BOOTSRAP</span></a>
+      <span class="w3-tag w3-amber w3-small w3-margin-bottom">SQL</span>
+       <span class="w3-tag w3-pale-red w3-small w3-margin-bottom">WORDPRESS</span> <span class="w3-tag w3-deep-purple w3-small w3-margin-bottom">EXCEL</span>
+      <span class="w3-tag w3-aqua w3-small w3-margin-bottom">MICROSOFT OFFICE</span> 
+      <span class="w3-tag w3-lime w3-small w3-margin-bottom">GOOGLE</span>
+      <span class="w3-tag w3-red w3-small w3-margin-bottom">TAILWIND</span>
+      <span class="w3-tag w3-teal w3-small w3-margin-bottom">NOTION</span>
+      <span class="w3-tag w3-amber w3-small w3-margin-bottom">CLICKUP</span>
+      <span class="w3-tag w3-pale-green w3-small w3-margin-bottom">NODE.JS</span>
+    </p>
+    </div>
+    
+    <hr > 
+    <div class="w3-card w3-margin" >
+      <p class="info w3-padding w3-text-white w3-cursive w3-center">Lets get in touch. Send me a message:</p>
+      <form class="w3-center phone" action="https://formspree.io/f/mvolzowv" method="POST">
+        <p>
+          <input
+            class="w3-input  w3-bjava w3-center "
+            type="text"
+            placeholder="Name"
+            required
+            name="Name"
+          />
+        </p>
+        <p>
+          <input
+            class="w3-input  w3-bjava w3-center"
+            type="text"
+            placeholder="Email"
+            required
+            name="Email"
+          />
+        </p>
+        <p>
+          <input
+            class="w3-input  w3-bjava w3-center"
+            type="text"
+            placeholder="Subject"
+            required
+            name="Subject"
+          />
+        </p>
+        <p>
+          <input
+            class="w3-input  w3-bjava w3-center"
+            type="text"
+            placeholder="Message"
+            required
+            name="Message"
+          />
+        </p>
+        <p class="w3-padding" >
+          <button
+            class="w3-button w3-light-grey w3-padding-large w3-center w3-hover-green"
+            type="submit"
+          >
+            <i class="fa fa-paper-plane "></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      </div>
+  </div>
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <iframe id="video" width="220" height="145" src="https://www.youtube.com/embed/UxqMdUle9Us?autoplay=1&mute=0&loop=1&controls=0" framebjava="0" allowfullscreen></iframe>
+
+<br>
+
+ <a href="https://github.com/cliff82"><i  class="fa fa-github w3-text-light-gray w3-jumbo" aria-hidden="true">  </i></a> 
+
+  <a href="https://twitter.com/mcnastyc804"><i class="fa fa-twitter w3-text-light-blue w3-padding w3-jumbo" aria-hidden="true"></i></a> 
+      
+  <a href="https://www.linkedin.com/in/cliffton-james-02a8197b/" class="fa fa-linkedin w3-text-blue w3-padding w3-jumbo" aria-hidden="true"></i></a> 
+   
+ <a class="patreon w3-text-blue-gray w3-padding w3-jumbo w3-white w3-circle" href="https://profile.indeed.com/p/clifftonj-eux3nxx">i</a> 
+   
+   <a class="patreon w3-text-orange w3-padding w3-jumbo" href="https://www.patreon.com/Mrnice14">P</a>
+  <p>Created by <a href="https://websiteforsale.mr-get-it-done.info/" target="_blank">Mr J</a></p>
+</footer>
+
+
+<script src="/blog.js"></script>
+</body>
+</html>
