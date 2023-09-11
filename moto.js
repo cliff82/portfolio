@@ -111,7 +111,7 @@ const randomQuotes = [
       "quote": "Whether you think you can or you think you```",
       "author": "Henry Ford"
    }
-]
+];
 
 function showRandomQuote() {
    const randomNumber = Math.floor(Math.random() * randomQuotes.length);
