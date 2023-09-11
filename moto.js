@@ -1,4 +1,4 @@
-[
+const randomQuotes = [
    {
       "quote": "Life is about making an impact, not making an income.",
       "author": "Kevin Kruse"
@@ -112,3 +112,10 @@
       "author": "Henry Ford"
    }
 ]
+
+function showRandomQuote() {
+   const randomNumber = Math.floor(Math.random() * randomQuotes.length);
+   const randomQuote = randomQuotes[randomNumber];
+   const quoteText = `"${randomQuote.quote}" - ${randomQuote.author}`;
+   document.getElementById("quote").innerHTML = quoteText;
+}
